@@ -1,0 +1,109 @@
+.rightfoot {
+    margin-top: 27px;
+
+
+    .korzinka {
+        background: #1F1D2B;
+        border-radius: 8px;
+        padding: 10px;
+        display: block;
+        border: 1px solid #FF7CA3;
+
+        .trash {
+            fill: #FF7CA3;
+            width: 60px;
+            height: 66px;
+        }
+    }
+
+    .right-top-right {
+        display: flex;
+        align-items: center;
+
+        .right-buttton {
+            padding: 14px 19.5px;
+            border: 1px solid #393C49;
+            box-sizing: border-box;
+            border-radius: 8px;
+            background-color: #393C49;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 140%;
+            color: #FFFFFF;
+        }
+
+        .price {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 140%;
+            text-align: right;
+            color: #FFFFFF;
+            margin-left: 21px;
+        }
+    }
+    .right-top-left {
+        display: flex;
+        align-items: center;
+
+        .left-right {
+            margin-left: 5px;
+
+            .foot-info {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 130%;
+                color: #FFFFFF;
+            }
+
+            .foot-money {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 140%;
+                color: #ABBBC2;
+                margin-top: 4px;
+            }
+        }
+    }
+
+    .right-foot-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .foot-miniIcon {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+
+        }
+    }
+
+    .right-foot-bottom {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+
+        .foot-coment {
+            width: 70%;
+            background: #2D303E;
+            border: 1px solid #393C49;
+            box-sizing: border-box;
+            border-radius: 8px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 140%;
+            color: #E0E6E9;
+            padding: 14px 88px 14px 14px;
+        }
+
+        
+    }
+
+    
+    
+}

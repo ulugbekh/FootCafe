@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import LeftBlock from './containers/left-block/'
+import { Switch , Route, BrowserRouter as Router } from 'react-router-dom'
+import './app.scss'
+import {
+  PageOne,
+  PageTwo,
+  PageThere
+} from './page/index'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+      <LeftBlock/>
+      
+        <Switch>
+          <Route   path="/PageOne/" component={PageOne}/>
+          <Route   path="/PageTwo" component={PageTwo}/>
+          <Route   path="/PageThere" component={PageThere}/>
+          
+        </Switch>
+      </Router>
     </div>
   );
 }

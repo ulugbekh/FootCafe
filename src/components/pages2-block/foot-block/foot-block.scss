@@ -1,0 +1,35 @@
+.foot-block {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+    
+
+    .foot-block-inner {
+        margin-left: 15px;
+        .foot-dishes {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 140%;
+            color: #ABBBC2;
+    
+        }
+    
+        .foot-name {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 130%;
+            color: #E0E6E9;
+        }
+    }
+
+    .foot-item {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        margin: 0;
+        padding: 0;
+    }
+}

@@ -1,0 +1,51 @@
+
+
+.dashboard-card {
+
+    width: 200px;
+    background: #1F1D2B;
+    border-radius: 8px;
+    padding: 16px 71px 16px 16px;
+
+    &.red {
+        .card-span {
+            color: red;
+        }
+    }
+
+    .dashboard-top {
+        display: flex;
+        align-items: center;
+    
+        .card-span {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 140%;
+            color: #50D1AA;
+            margin-left: 15px;
+        }
+    }
+    
+    .dashboard-middle {
+        .card-money {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 140%;
+            color: #FFFFFF;
+            margin-top: 10px;
+        }
+    }
+    
+    .dashboard-bottom {
+        .card-info {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 130%;
+            color: #ABBBC2;
+            margin-top: 10px;
+        }
+    }
+}

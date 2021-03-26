@@ -1,0 +1,19 @@
+.btn {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    color: #EA7C69;
+    background: #1F1D2B;
+    border: 1px solid #393C49;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 17px 27px;
+    margin: 0;
+    margin-right: 8px;
+    box-sizing: border-box;
+    &.activ {
+        color: white;
+        background-color: #EA7C69;
+    }
+}

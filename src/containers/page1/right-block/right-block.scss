@@ -1,0 +1,88 @@
+.rightblock {
+    background: #1F1D2B;
+    border-radius: 8px;
+    width: 35%;
+    padding: 24px;
+    height: 100vh;
+    margin-left: 108px;
+
+    .right-foots {
+        height: 500px;
+        overflow-y: scroll;
+        padding-right: 40px;
+    }
+
+    .right-text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 31px;
+        border-bottom: 1px solid #393C49;
+        padding-bottom: 24px;
+
+        .item-right {
+            display: flex;
+            
+
+            .item {
+                margin-left: 43px;
+            }
+        }
+        .item {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 140%;
+            color: #FFFFFF;
+        }
+    }
+
+    .btn-block {
+        display: flex;
+    }
+
+    .right-block-bottom {
+        margin-top: 24px;
+        // background-color: red;
+        .discaon-btn {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 140%;
+            color: #FAFAFA;
+            width: 100%;
+            padding: 14px;
+            background: #EA7C69;
+            box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.3);
+            border-radius: 8px;
+            margin-top: 65px;
+        }
+        
+        .discount2 {
+            margin-top: 25px;
+        }
+        .discount-block {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+
+            .discaount-item {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 140%;
+                text-align: right;
+                color: #FFFFFF;
+            }
+
+            .discount {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 140%;
+                color: #ABBBC2;
+            }
+        }
+    }
+}

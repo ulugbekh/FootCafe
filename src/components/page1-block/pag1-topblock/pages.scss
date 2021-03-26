@@ -1,0 +1,41 @@
+.page1 {
+   
+    width: 59vw;
+    padding: 24px;
+
+    
+}
+
+.page-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .big-text {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 140%;
+        color: #FFFFFF;
+
+    }
+
+    .small-text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 140%;
+        color: #E0E6E9;
+        margin-top: 4px;
+    }
+
+    .page1-input {
+        background: #2D303E;
+        border: 1px solid #393C49;
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding: 14px 14px 14px 42px;
+        color: white;
+        font-size: 18px;
+    }
+}

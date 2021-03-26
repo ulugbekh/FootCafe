@@ -1,0 +1,20 @@
+.carousel-item {
+    position: relative;
+
+    .carousel-money {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        padding: 5px;
+        color: green;
+    }
+
+    .carousel-img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+}

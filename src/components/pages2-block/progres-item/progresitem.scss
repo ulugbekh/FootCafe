@@ -1,0 +1,47 @@
+.progres-item {
+    display: flex;
+    align-items: center;
+
+    .progres-right {
+        margin-top: 10px;
+    }
+
+    .progres-info {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+        color: #ABBBC2;
+        
+    }
+
+    .progres-text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 130%;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+    .progres-color {
+        width: 25px;
+        height: 25px;
+        display: block;
+        border-radius: 50%;
+        background: red;
+        margin-right: 10px;
+        &.pulpur {
+            background: #FF7CA3;
+        }
+        &.orange {
+            background: #FFB572;
+        }
+        &.blue {
+            background: #65B0F6;
+        }
+    }
+}

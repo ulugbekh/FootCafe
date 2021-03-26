@@ -1,0 +1,53 @@
+.foot-item {
+    width: 192px;
+    background: #1F1D2B;
+    border-radius: 16px;
+    position: relative;
+    padding: 0 44px 24px 44px;
+    margin: 58px 28px;
+    height: 250px;
+    .foot-img {
+        position: absolute;
+        width: 140px;
+        height: 140px;
+        top: -30px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border-radius: 50%;
+    }
+
+    .foot-info {
+        padding-top: 140px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 130%;
+        text-align: center;
+        color: #FFFFFF;
+        width: 144px;
+        margin: 0 auto;
+    }
+
+    .foot-money {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 140%;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 8px;
+    }
+
+    .foot-bowls {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 140%;
+        text-align: center;
+        color: #ABBBC2;
+        margin-top: 4px;
+        display: block;
+
+    }
+}

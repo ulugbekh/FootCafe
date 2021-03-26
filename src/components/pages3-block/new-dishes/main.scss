@@ -1,0 +1,36 @@
+.newdishesitem {
+    border: 1px dashed #EA7C69;
+    border-radius: 8px;
+    width: 220px;
+    height: 350px;
+    position: relative;
+    cursor: pointer;
+    margin: 20px 30px;
+
+    .icon-dishes {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+
+    }
+
+    .text-dishes {
+        position: absolute;
+        top: 60%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+        text-align: center;
+        color: #EA7C69;
+    }
+
+
+}
